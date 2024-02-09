@@ -70,5 +70,5 @@ class TeleWrapper:
 
 """
 {'amount': '120', 'date': '12/10/2024', 'category': 'fun', 'desc': 'test', 'id': 178, 'username': 'KING_STAR_0'}
-https://api.telegram.org/bot6723763881:AAGp0HoQ7c45xQ7GzUGXCiAWLlPHHtG8JS4/setWebhook?url=https://e14c-203-192-253-220.ngrok-free.app/
+https://api.telegram.org/{{token}}/setWebhook?url=https://e14c-203-192-253-220.ngrok-free.app/
 """
