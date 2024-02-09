@@ -12,7 +12,7 @@ from api.endpoints.users import user_get, user_add
 router = APIRouter()
 
 
-Token="6723763881:AAGp0HoQ7c45xQ7GzUGXCiAWLlPHHtG8JS4"
+Token="dummy"
 telegram_obj = TeleWrapper(Token)
 
 @router.get("/set_webhook/{url:path}")
