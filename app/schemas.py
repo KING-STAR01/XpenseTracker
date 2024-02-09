@@ -1,5 +1,6 @@
 from pydantic import BaseModel, Field
 from datetime import datetime
+from typing import Optional
 
 class ExpenseRequest(BaseModel):
     amount: float
@@ -7,6 +8,7 @@ class ExpenseRequest(BaseModel):
     description: str
     id: int
     username: str
+    created_at: Optional[datetime]
 
 
 class ExpenseResponse(BaseModel):
@@ -22,3 +24,7 @@ class ExpenseResponse(BaseModel):
 class UserSchema(BaseModel):
     username: str
     user_id: int
+
+
+class SetWebhookResponse(BaseModel):
+    message: str

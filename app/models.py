@@ -11,8 +11,8 @@ class Base(DeclarativeBase):
     pass
 
 """
-{'update_id': 815454850, 
-'message': {'message_id': 155, 
+{'update_id': 815454850,
+'message': {'message_id': 155,
 'from': {'id': 1314612220, 'is_bot': False, 'first_name': 'KINGSTAR', 'username': 'KING_STAR_0', 'language_code': 'en'},
 'chat': {'id': 1314612220, 'first_name': 'KINGSTAR', 'username': 'KING_STAR_0', 'type': 'private'},
  'date': 1704381532, 'text': 'Hi'}}

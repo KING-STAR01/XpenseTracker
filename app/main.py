@@ -16,4 +16,7 @@ app.include_router(api_router)
 def hello():
     return {"hello": "world"}
 
+if __name__ == '__main__':
+     import uvicorn
+     uvicorn.run('main:app', port=8002, reload=True)
 
